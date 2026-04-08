@@ -53,10 +53,6 @@ class SimpleTokenizer:
             current_id+=1
 
         self.vocab_size=len(self.word_to_id)
-
-        return self.word_to_id
-
-        
     
     def encode(self, text: str) -> List[int]:
         """
